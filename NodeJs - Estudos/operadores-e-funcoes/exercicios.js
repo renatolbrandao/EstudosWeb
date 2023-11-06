@@ -26,7 +26,6 @@ const validarOperador = (operador) =>{
     }
 };
 
-
 readLine.question('Favor informar um número: ', (numero1) => {
 
     const numValidado1 = validaNumero(numero1);
@@ -61,4 +60,3 @@ readLine.question('Favor informar um número: ', (numero1) => {
     }
 
 });
-
